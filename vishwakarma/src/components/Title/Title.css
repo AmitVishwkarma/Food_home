@@ -1,0 +1,127 @@
+.title{
+    margin-top: 200px;
+    height: 100vh;
+}
+.span-page{
+    font-size: 22px;
+    color: #646464;
+}
+
+
+
+/* <------------- copy ---------------> */
+
+.underline{
+  width: 45%;
+  height: 5px;
+  background: #0070c6;
+  border-radius: 3px;
+  position: absolute;
+  top: 55px;
+  left: 0;
+  overflow: hidden;
+
+}
+.underline span{
+  width: 15px;
+  height: 100%;
+  background: #fff;
+  border-radius: 3px;
+  position: absolute;
+  top: 0;
+  left: 10px;
+  animation: moving 2s linear infinite;
+}
+@keyframes moving{
+  0%{
+      left: -20px;
+  }
+  100%{
+      left: 100%;
+  }
+}
+
+  
+ 
+  
+
+  
+  
+
+
+
+  
+
+  
+
+
+  
+
+  
+
+  .title-column {
+    padding: 15px;
+ 
+
+  }
+  
+ 
+  .title-column {
+    float: left;
+   margin-left: 25px;
+    border-radius: 30px;
+    
+    text-align: center;
+
+  }
+
+  
+
+  .title-content {
+    background-color: whitesmoke;
+    border: 2px solid whitesmoke;
+    border-radius: 25px;
+    padding: 20px;
+    width: 160px;
+    height: 200px;
+    
+    
+  }
+  .title-content:hover{
+    transform: scale(1);
+    background-color: blue;
+    cursor: pointer;
+  }
+  .title-content, h3{
+    text-align: center;
+  }
+  
+
+  
+/*   
+  @media screen and (max-width: 900px) {
+    .column {
+      width: 50%;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+  
+  
+  @media screen and (max-width: 480px) {
+    .pl {
+      padding: 10px;
+    }
+  
+    .pl-texts {
+      width: 100%;
+    }
+  
+    .pl-desc {
+      display: none;
+    }
+  } */

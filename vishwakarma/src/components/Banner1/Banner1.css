@@ -1,0 +1,26 @@
+.heading{
+    text-align: center;
+}
+.text{
+    font-family: "Quicksand";
+    font-size: 30px;
+    color: #373739;
+    position: relative;
+}
+.num{
+    font-size: 30px;
+    color: #E05564;
+    position: relative;
+
+}
+.num1{
+    color: rgb(32, 37, 37);
+    position: relative;
+}
+.logo{
+width: 100%;
+height: auto;  
+text-align: center;
+display: flex; 
+margin-top: -130px;
+}
